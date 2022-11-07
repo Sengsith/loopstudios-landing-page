@@ -1,0 +1,24 @@
+.fa-brands, .fa-solid {
+  color: white;
+}
+
+.cancel {
+  display: none !important;
+
+  &.active {
+    display: inline-block !important;
+  }
+}
+
+.hamburger {
+
+  &.active {
+    display: none !important;
+  }
+}
+
+@media (min-width: 48rem) {
+  .hamburger {
+    display: none !important;
+  }
+}

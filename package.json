@@ -1,0 +1,11 @@
+{
+  "name": "loopstudios-landing-page",
+  "description": "![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "public/index.html",
+  "author": "Angelo Rosario",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

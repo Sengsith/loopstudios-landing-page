@@ -1,0 +1,38 @@
+@use '../abstracts/' as *;
+
+header {
+  width: 100%;
+  height: 100vh;
+  padding: 2rem 0;
+  background: url('/loopstudios-landing-page/src/images/mobile/image-hero.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+
+  & > .heading-wrapper {
+    width: min(90%, 60rem);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.heading {
+  color: $clr-primary-100;
+  border: .125rem solid $clr-primary-100;
+  padding: 1.5rem;
+  font-size: 2.75rem;
+  font-weight: $fw-light;
+}
+
+@media (min-width: 48rem) {
+  header {
+    background: url('/loopstudios-landing-page/src/images/desktop/image-hero.jpg') center/cover no-repeat;
+  }
+  .heading {
+    font-size: 5rem;
+    width: min(100%, 40rem);
+  }
+}

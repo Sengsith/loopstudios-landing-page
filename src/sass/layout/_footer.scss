@@ -1,0 +1,41 @@
+@use '../abstracts/' as *;
+
+footer {
+  padding-block: 2rem;
+  width: 100%;
+  background-color: $clr-primary-900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link-footer {
+  color: $clr-primary-100;
+  font-weight: $fw-regular;
+  font-size: $fs-primary;
+  font-family: $ff-primary;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  color: $clr-primary-100;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 48rem) {
+  .list-footer {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}

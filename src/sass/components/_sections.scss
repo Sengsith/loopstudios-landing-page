@@ -1,0 +1,50 @@
+@use '../abstracts/' as *;
+
+.intro {
+  text-align: center;
+  width: min(100%, 60rem);
+  margin-block: 5rem;
+  margin-inline: auto;
+}
+.intro-text > p {
+  width: 100%;
+  margin-inline: inherit;
+  font-family: $ff-primary;
+  font-size: $fs-primary;
+  color: $clr-primary-600;
+}
+
+picture > img {
+  width: 100%;
+}
+
+.creations {
+  text-align: center;
+}
+
+@media (min-width: 48rem) {
+  .intro {
+    position: relative;
+    height: 33rem;
+  }
+
+  .intro-text {
+    position: absolute;
+    text-align: start;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+    width: 45%;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    & > h2 {
+      margin-inline: 0;
+    }
+  }
+
+  picture > img {
+    position: absolute;
+    left: 0;
+    width: 80%;
+  }
+}
