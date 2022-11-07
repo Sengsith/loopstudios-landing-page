@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Sengsith/loopstudios-landing-page)
+- Live Site URL: [Netlify](https://phenomenal-crepe-e8582d.netlify.app)
 
 ## My process
 
