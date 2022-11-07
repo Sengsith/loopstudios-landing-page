@@ -57,6 +57,7 @@ h3 {
   left: 10%;
   top: 60%;
   transform: translateY(-60%);
+  transition: 150ms ease-in-out;
 }
 
 @media (min-width: 48rem) {

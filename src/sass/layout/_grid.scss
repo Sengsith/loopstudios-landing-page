@@ -27,6 +27,7 @@
   width: 100%;
   height: 100%;
   background-image: $clr-linear-gradient;
+  transition: 150ms ease-in-out;
 }
 .grid-item:nth-child(1) { /* Header */
   height: 2rem; /* Override the general grid-item height */
